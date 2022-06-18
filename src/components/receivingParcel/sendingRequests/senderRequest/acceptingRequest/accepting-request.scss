@@ -1,0 +1,48 @@
+.accepting-request {
+  background: var(--grayColor500);
+  min-height: 100vh;
+  & > .container {
+    height: 100vh !important;
+    & > div {
+      height: 100vh !important;
+    }
+  }
+  h4 {
+    font-size: var(--fontSizeMD2);
+    color: var(--grayColor400);
+    @media (max-width: 768px) {
+      font-size: var(--fontSizeSM);
+    }
+  }
+  &__modal {
+    max-width: 36.25rem;
+    background: var(--white);
+    padding: var(--spacingMD);
+    border-radius: var(--borderRadiusMD);
+    &__close {
+      background: transparent !important;
+    }
+    &__content {
+      font-size: 1.75rem;
+      @media (max-width: 768px) {
+        font-size: var(--fontSizeMD);
+      }
+    }
+    &__info-text {
+      font-size: var(--fontSizeSM);
+      color: var(--blueColor200);
+    }
+    &__btn-group {
+      a {
+        width: 100% !important;
+        text-align: center !important;
+        @media (max-width: 768px) {
+          padding: var(--spacingXS) var(--spacingMD) !important;
+          &:first-child {
+            margin-bottom: var(--spacingSM);
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+.sending-parcel-filter-section {
+	fieldset {
+		margin-bottom: var(--spacingSM2) !important;
+	}
+	&__legend {
+		margin-bottom: var(--spacingSM);
+		color: var(--blueColor200);
+		font-size: var(--fontSizeMD2);
+		position: relative;
+		&__icon {
+			display: block;
+			position: absolute;
+			left: 0;
+			top: 50%;
+			transform: translateY(-50%);
+			cursor: pointer;
+		}
+	}
+	&__label {
+		font-size: var(--fontSizeXS);
+	}
+	&__field-input {
+		height: 2.375rem;
+		padding: var(--spacingSM);
+		background-color: transparent;
+		border: 2px solid var(--grayColor200);
+		border-radius: var(--borderRadiusMD);
+		outline: none;
+		transition: all 150ms ease-in-out;
+		font-size: var(--fontSizeSM);
+		&:hover,
+		&:focus {
+			border-color: var(--blueColor400);
+		}
+		&::placeholder {
+			color: var(--placeHolderColor);
+		}
+	}
+	&__badge {
+		margin-left: var(--spacingXXXXS);
+		background-color: rgba(120, 157, 204, 0.1);
+		padding: var(--spacingXXXXS) var(--spacingXXXS);
+		border-radius: var(--borderRadiusSM);
+		font-size: 0.625rem;
+		color: var(--blueColor300);
+		cursor: pointer;
+	}
+	&__disable-label {
+		position: relative;
+		color: var(--grayColor300);
+		input[type="checkbox"] {
+			position: relative;
+			opacity: 0;
+			&:checked
+				~ .sending-parcel-filter-section__disable-label__checkmark::after {
+				display: block;
+			}
+		}
+		&__checkmark {
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 24px;
+			height: 24px;
+			background-color: transparent;
+			border: 2px solid var(--blueColor400);
+			border-radius: var(--borderRadiusSM);
+			transition: all 150ms ease-in-out;
+			&:hover {
+				background-color: #fff;
+				box-shadow: 0 0 5px 0 rgba(68, 108, 153, 0.32);
+			}
+			&::after {
+				content: url("../../../../assets/requests/checked.png");
+				display: none;
+				position: absolute;
+				width: 16px;
+				height: 16px;
+				top: 35%;
+				left: 47%;
+				transform: translate(-50%, -50%);
+			}
+		}
+	}
+}

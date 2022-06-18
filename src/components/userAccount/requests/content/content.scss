@@ -1,0 +1,24 @@
+.requests__content {
+  &__tab {
+    &__button {
+      background: none;
+      color: var(--blueColor200);
+      &.active {
+        color: var(--blueColor400);
+        border-bottom: 3px solid currentColor;
+      }
+    }
+  }
+}
+.is-doing {
+  &__text {
+    font-size: var(--fontSizeMD2);
+    color: var(--blueColor200);
+  }
+  &__add-request {
+    color: var(--blueColor400);
+  }
+  &__button {
+    background: none;
+  }
+}

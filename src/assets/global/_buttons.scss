@@ -1,0 +1,84 @@
+.primary-outline-button {
+  display: inline-block !important;
+  background: transparent;
+  color: var(--primaryColor) !important;
+  border: 1px solid currentColor !important;
+  &:hover {
+    background: var(--primaryColorLight) !important;
+  }
+  &:disabled {
+    color: var(--yellowColor300) !important;
+    border: 1px solid currentColor !important;
+  }
+}
+
+.primary-button {
+  display: inline-block !important;
+  background: var(--primaryColor) !important;
+  color: var(--white) !important;
+  box-shadow: var(--primaryColorBoxShadow) !important;
+  border: none !important;
+  &.primary-button--big {
+    font-size: var(--fontSizeMD) !important;
+    padding: var(--spacingXS) var(--spacing3XL) !important;
+  }
+  &:hover {
+    background: var(--btnPrimaryHover) !important;
+  }
+  &:disabled {
+    background: var(--btnPrimaryDisable);
+  }
+}
+.primary-outline-button,
+.primary-button {
+  padding: var(--spacingXS) var(--spacingLG) !important;
+  font-size: var(--fontSizeBase) !important;
+  border-radius: var(--borderRadiusMD) !important;
+  transition: var(--transitionBase) !important;
+}
+.secondary-button {
+  display: inline-block !important;
+  background: var(--secondaryColor) !important;
+  border-radius: var(--borderRadiusMD) !important;
+  color: var(--white) !important;
+  padding: var(--spacingXXXS) var(--spacingLG) !important;
+  transition: var(--transitionBase) !important;
+  box-shadow: var(--secondaryColorBoxShadow) !important;
+  &:hover {
+    background: var(--btnSecondaryHover) !important;
+  }
+  &--big {
+    font-size: var(--fontSizeMD) !important;
+    padding: var(--spacingXS) var(--spacing3XL) !important;
+  }
+}
+
+.primary-action-outline-button {
+  color: var(--blueColor400) !important;
+  background: transparent !important;
+  display: inline-block !important;
+  cursor: pointer !important;
+  border: 1.5px solid currentColor !important;
+  padding: var(--spacingXXXS) var(--spacingSM2-1) !important;
+  border-radius: var(--borderRadiusMD) !important;
+  &:hover {
+    background: var(--blueColor400) !important;
+    color: var(--white) !important;
+    transition: var(--transitionBase);
+  }
+}
+.danger-outline-button {
+  color: var(--redColor) !important;
+  background: transparent !important;
+  display: inline-block !important;
+  cursor: pointer !important;
+  border: 1.5px solid currentColor !important;
+  padding: var(--spacingXXXS) var(--spacingSM2-1) !important;
+  border-radius: var(--borderRadiusMD) !important;
+  &:hover {
+    background: var(--redColor) !important;
+    color: var(--white) !important;
+    transition: var(--transitionBase);
+  }
+}
+

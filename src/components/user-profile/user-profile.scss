@@ -1,0 +1,33 @@
+.user-profile {
+  background-color: var(--grayColor50);
+
+  .user-star{
+    width: 15px;
+    height: 15px;
+    margin: 4px;
+    margin: 10px 2px;
+  }
+  .user-message{
+    width: 15px;
+    height: 15px;
+    margin: 4px;
+    margin: 10px 2px;
+  }
+  span{
+    margin: 8px 5px;
+  }
+  h6{
+    margin: 8px 5px;
+  }
+  h3{
+    color: var(--blueColor500);
+    font-size: var(--fontSizeBase);
+  }
+}
+.riport{
+  span{
+    color: var(--grayColor300);
+    font-size: var(--fontSizeXS);
+  }
+}
+

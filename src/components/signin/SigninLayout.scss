@@ -1,0 +1,47 @@
+#sign-in {
+	min-height: 100vh !important;
+}
+.sign-in__info {
+	padding-right: 14% !important;
+	padding-top: var(--spacing3XL) !important;
+	padding-left: var(--spacing4XL) !important;
+}
+
+.sign-in__image {
+	position: relative;
+	background-color: var(--grayColor100);
+	> img {
+		position: relative;
+		min-height: 100vh !important;
+		width: auto;
+		left: 14%;
+	}
+	a {
+		position: absolute;
+		top: var(--spacing3XL);
+		left: 35%;
+		z-index: 1;
+	}
+	button {
+		background: transparent;
+		color: var(--grayColor400);
+	}
+	@media (max-width: 768px) {
+		display: none;
+	}
+}
+//
+//
+//
+
+.file-select {
+	label {
+		width: 7.5rem;
+		height: 7.5rem;
+		border-radius: 50%;
+		background: rgba(0, 61, 102, 0.32);
+	}
+	input {
+		display: none;
+	}
+}

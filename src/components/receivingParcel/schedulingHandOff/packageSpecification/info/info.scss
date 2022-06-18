@@ -1,0 +1,19 @@
+.scheduling-hand-off__package-specification__info {
+  background: var(--blueColor150);
+  border-radius: var(--borderRadiusMD);
+  padding: var(--spacingSM2-1) var(--spacingMD);
+  &__text {
+    & + * {
+      margin-top: var(--spacingXS);
+    }
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 0.625rem;
+      height: 0.625rem;
+      background: var(--secondaryColor);
+      border-radius: 50%;
+      margin-left: var(--spacingXXXS);
+    }
+  }
+}

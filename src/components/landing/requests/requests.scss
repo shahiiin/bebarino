@@ -1,0 +1,10 @@
+.requests {
+  background: var(--grayColor100);
+  padding: var(--spacing4XL) 0;
+  h2 {
+    font-size: var(--fontSizeXL);
+  }
+  &__see-all {
+    color: var(--blueColor400) !important;
+  }
+}

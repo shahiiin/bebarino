@@ -1,0 +1,57 @@
+.alert {
+  background-color: rgba(0, 6, 26, 0.6);
+  height: 100vh;
+}
+
+.modal {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: #fff !important;
+}
+
+.ring {
+  width: 80px;
+  height: 90px;
+  margin-top: 1rem;
+}
+
+.modal h6 {
+  color: #00061a;
+  margin-top: 1.3rem;
+}
+
+.modal p {
+  font-family: Shabnam;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #d9002e;
+}
+
+.dismis {
+  border: .5px solid #ffa401 !important;
+  width: 100px;
+  height: 35px;
+  color: #ffa401 !important;
+  background-color: #fff !important;
+  margin: 0px 26px;
+}
+
+.cansel-box {
+  background-color: #ffa401 !important;
+  border: none !important;
+  color: #fff !important;
+  width: 100px;
+  height: 35px;
+  margin: 0px 26px;
+}

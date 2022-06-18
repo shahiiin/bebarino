@@ -1,0 +1,9 @@
+.rate {
+  display: flex;
+  align-items: center;
+  &__value {
+    font-size: var(--fontSizeXS);
+    color: var(--blueColor400);
+    margin-top: 0.2rem;
+  }
+}

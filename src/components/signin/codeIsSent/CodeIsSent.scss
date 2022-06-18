@@ -1,0 +1,30 @@
+.code-is-sent {
+	&__sub-title {
+		font-size: var(--fontSizeMD2);
+	}
+	&__input {
+		background-color: transparent;
+		height: 3.125rem;
+		width: 3.125rem;
+		padding: var(--spacingBase);
+		font-size: var(--fontSizeMD2);
+		border-radius: var(--borderRadiusMD);
+		border: 2px solid var(--grayColor300);
+		text-align: center;
+		transition: var(--transitionBase);
+		&:hover,
+		&:focus {
+			background-color: #fff;
+			border-color: var(--blueColor400);
+			box-shadow: 0 6px 12px 0 rgba(120, 157, 204, 0.32);
+		}
+	}
+	&__timer {
+		font-size: var(--fontSizeLG);
+		color: var(--grayColor300);
+	}
+	&__resend {
+		color: var(--blueColor400);
+		font-weight: 500;
+	}
+}

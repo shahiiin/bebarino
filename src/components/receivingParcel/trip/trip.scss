@@ -1,0 +1,106 @@
+.trip {
+  background: var(--grayColor100);
+  padding: var(--spacing2XL) 0;
+  span {
+    display: inline-block !important;
+  }
+  img {
+    display: inline-block !important;
+  }
+  .row {
+    width: 100% !important;
+  }
+  &__parcel {
+    &__handing-off-parcel {
+      background: var(--white);
+      padding: var(--spacingMD);
+      border-radius: var(--borderRadiusMD);
+      &__contact-info {
+        .row {
+          @media (max-width: 1200px) {
+            flex-direction: column !important;
+            align-items: flex-start !important;
+            & div {
+              margin-top: var(--spacingSM);
+            }
+          }
+        }
+      }
+      @media (max-width: 768px) {
+        margin-top: var(--spacingMD) !important;
+      }
+      h4 {
+        color: var(--grayColor400);
+        font-size: var(--fontSizeMD);
+      }
+      &__address {
+        span {
+          &:first-child {
+            font-size: var(--fontSizeSM);
+            color: var(--grayColor400);
+          }
+        }
+      }
+      &__date {
+        &__day {
+          h6 {
+            font-size: var(--fontSizeSM);
+            color: var(--grayColor400);
+          }
+        }
+        &__hour {
+          h6 {
+            font-size: var(--fontSizeSM);
+            color: var(--grayColor400);
+          }
+        }
+      }
+      &__info {
+        color: var(--blueColor300);
+        font-size: var(--fontSizeSM);
+      }
+    }
+    &__handing-over-parcel {
+      background: var(--white);
+      padding: var(--spacingMD);
+      border-radius: var(--borderRadiusMD);
+      h4 {
+        color: var(--grayColor400);
+        font-size: var(--fontSizeMD);
+      }
+      &__download {
+        color: var(--blueColor400);
+      }
+    }
+    span {
+      display: inline-block !important;
+    }
+    &__travel-done {
+      background: var(--white);
+      padding: var(--spacingSM2) var(--spacingMD);
+      border-radius: var(--borderRadiusMD);
+      @media (max-width: 1200px) {
+        h2 {
+          font-size: var(--fontSizeMD2);
+        }
+      }
+      &__texts {
+        @media (max-width: 992px) {
+          margin: var(--spacingSM) 0;
+        }
+      }
+      &__button {
+        display: flex;
+        align-items: center;
+      }
+      .primary-button {
+        padding: var(--spacingXXXS) var(--spacingBase) !important;
+        display: flex !important;
+        align-items: center !important;
+        box-shadow: none !important;
+        font-size: 14px !important;
+        width: 100% !important;
+      }
+    }
+  }
+}

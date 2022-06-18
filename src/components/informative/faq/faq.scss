@@ -1,0 +1,33 @@
+.bg-color{
+    background-color:var(--grayColor100) !important ;
+} 
+.how-works__texts{
+    h3{
+        font-size: var(--fontSizeLG) !important;
+
+    }
+    p{
+        font-weight:200 !important;
+    }
+}
+.card{
+    background-color: var(--grayColor100);
+   border-radius: var(--borderRadiusMD) !important
+   ;
+   border: none !important;
+   box-shadow: var(--BoxShadowGraySM)!important;
+   margin-top: var(--spacingSM)!important;
+}
+.mb-0{
+    span{
+        font-size: var(--fontSizeMD2)!important;
+    }
+}
+.card-body{
+    padding-right: 2rem !important;
+    a{
+        text-decoration: none !important;
+        color: var(--yellowColor400) !important;
+        cursor: pointer;
+    }
+}

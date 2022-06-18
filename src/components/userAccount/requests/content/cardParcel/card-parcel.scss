@@ -1,0 +1,51 @@
+.card-parcel {
+  background: var(--white);
+  border-radius: var(--borderRadiusMD);
+  padding: var(--spacingSM2-1) var(--spacingSM2);
+  & + & {
+    margin-top: var(--spacingSM);
+  }
+  &:hover {
+    box-shadow: var(--BoxShadowGrayMD);
+    transition: var(--transitionBase);
+  }
+  &__header {
+    &__title {
+      font-size: var(--fontSizeMD);
+    }
+    &__setting {
+      display: inline-block;
+      background: none;
+    }
+  }
+  &__user-info {
+    &__user-name {
+      color: var(--blueColor400);
+      font-size: var(--fontSizeXS);
+    }
+    &__rate,
+    &__message {
+      font-size: var(--fontSizeXS);
+    }
+    &__avatar {
+      border-radius: 50%;
+    }
+  }
+  &__parcel-type {
+    font-size: var(--fontSizeMD2);
+  }
+  &__unit {
+    font-size: var(--fontSizeXS);
+  }
+  &__value {
+    font-size: var(--fontSizeLG);
+  }
+  &__state {
+    color: var(--grayColor400);
+    font-size: var(--fontSizeSM);
+  }
+  & .primary-button {
+    padding: var(--spacingXXXS) var(--spacingSM3) !important;
+    box-shadow: none !important;
+  }
+}

@@ -1,0 +1,79 @@
+.request-card {
+  background: var(--white);
+  padding: var(--spacingSM2-1) var(--spacingSM3);
+  border-radius: var(--borderRadiusSM);
+  @media (max-width: 1200px) {
+    margin-top: var(--spacingSM2-1) !important;
+  }
+  & + * {
+    margin-top: var(--spacingXXXXS);
+  }
+  &__header {
+    img {
+      border-radius: 50%;
+    }
+    h6 {
+      color: var(--blueColor400);
+    }
+    button {
+      background: transparent;
+    }
+  }
+  &__star,
+  &__message {
+    font-size: var(--fontSizeXS);
+  }
+  &__date {
+    font-size: var(--fontSizeSM);
+    color: var(--grayColor400);
+  }
+  &__body {
+    margin-top: var(--spacingMd) !important;
+    @media (max-width: 1200px) {
+      flex-direction: column !important;
+    }
+    &__info {
+      @media (max-width: 1200px) {
+        flex: 1 !important;
+        max-width: 100% !important;
+        justify-content: center !important;
+      }
+    }
+    &__heading {
+      font-size: var(--fontSizeXS);
+      color: var(--grayColor300);
+    }
+    &__text {
+      font-size: var(--fontSizeMD2);
+    }
+    &__btn-group {
+      @media (max-width: 1200px) {
+        &.col-md-7 {
+          flex: 1 !important;
+          max-width: 100% !important;
+          margin-top: var(--spacingSM3);
+          justify-content: center !important;
+        }
+      }
+      a {
+        display: inline-block !important;
+        text-align: center !important;
+        background: var(--primaryColor) !important;
+        padding: var(--spacingXXS) var(--spacingSM2-1) !important;
+        border-radius: var(--borderRadiusMD);
+        color: var(--white) !important;
+        border: none;
+        &:hover {
+          background: var(--yellowColor500) !important;
+        }
+        @media (max-width: 1200px) {
+          margin-right: auto;
+        }
+      }
+      span {
+        color: var(--grayColor400);
+        font-size: var(--fontSizeSM);
+      }
+    }
+  }
+}

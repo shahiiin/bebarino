@@ -1,0 +1,43 @@
+.requests-parcel-card {
+	padding: var(--spacingSM2-1) var(--spacingSM3) !important;
+	background: var(--grayColor100);
+	border-radius: var(--borderRadiusMD);
+	& .row {
+		flex: 1;
+	}
+	&__avatar {
+		display: inline-block;
+		border-radius: 50%;
+	}
+	h4 {
+		font-size: var(--fontSizeMD);
+	}
+	&__send-box {
+		margin-right: auto !important;
+		background: var(--blueColor100) !important;
+		color: var(--secondaryColor) !important;
+		padding: var(--spacingXXXS) var(--spacingXS);
+		border-radius: var(--borderRadiusSM);
+		font-size: var(--fontSizeSM);
+		img {
+			margin-top: calc(-1 * var(--spacingXXXXS));
+		}
+	}
+	&__value {
+		font-size: var(--fontSizeLG);
+	}
+	&__name {
+		color: var(--blueColor400);
+		font-size: var(--fontSizeXS);
+	}
+	&__tag {
+		background: var(--grayColor50) !important;
+		font-size: var(--fontSizeXS) !important;
+		color: var(--grayColor400) !important;
+		border-radius: var(--borderRadiusSM) !important;
+		padding: var(--spacingXXXXS) var(--spacingXS) !important;
+	}
+	&__parcel-name {
+		font-size: var(--fontSizeMD2);
+	}
+}

@@ -1,0 +1,97 @@
+:root {
+  /* blue colors*/
+  --blueColor100: rgba(120, 157, 204, 0.1);
+  --blueColor150: #f1f5fa;
+  --blueColor200: #789dcc;
+  --blueColor300: #446c99;
+  --blueColor400: #003d66;
+  --blueColor500: #00061a;
+  /* yellw colors*/
+  --yellowColor100: rgba(255, 164, 1, 0.1);
+  --yellowColor200: #ffec80;
+  --yellowColor300: #ffd466;
+  --yellowColor400: #ffa401;
+  --yellowColor500: #e87a00;
+  /* gray colors*/
+  --grayColor50: rgba(177, 182, 183, 0.1);
+  --grayColor100: #f9fbfc;
+  --grayColor200: #eef1f2;
+  --grayColor300: #cfd4d5;
+  --grayColor400: #b1b6b7;
+  --grayColor500: rgba(0, 6, 26, 0.6);
+  /* other colors*/
+  --greenColor: #00cd7e;
+  --greenColorLight: rgba(0, 205, 126, 0.64);
+  --greenColorVeryLight: #e5faf2;
+  --orangeColor: #ff6a33;
+  --redColor: #d9002e;
+  --redColorLighter: #ea7089;
+  --redColorLight: rgba(217, 0, 46, 0.64);
+  --redColorVeryLight: #fbe5e9;
+  /* success and failure*/
+  --successColor: var(--greenColor);
+  --successBoxShadow: 0 6px 12px var(--greenColorLight);
+  --failureColor: var(--redColor);
+  --failureBoxShadow: 0 6px 12px var(--redColorLight);
+  /* box shadows*/
+  --BoxShadowGraySM: 0 6px 12px rgba(207, 212, 213, 0.32);
+  --BoxShadowGrayMD: 0 12px 24px rgba(207, 212, 213, 0.32);
+  /*primary btn states*/
+  --btnPrimary: var(--primaryColor);
+  --btnPrimaryHover: var(--yellowColor500);
+  --btnPrimaryDisable: var(--yellowColor200);
+  /*secondary btn states*/
+  --btnSecondary: var(--secondaryColor);
+  --btnSecondaryHover: var(--blueColor400);
+  --btnSecondaryDisable: var(--blueColor200);
+  /* global color styles */
+  --primaryColor: var(--yellowColor400);
+  --primaryColorLight: var(--yellowColor100);
+  --primaryColorBoxShadow: 0 6px 12px rgba(255, 201, 65, 0.64);
+  --secondaryColor: var(--blueColor300);
+  --secondaryColorLight: var(--blueColor100);
+  --secondaryColorBoxShadow: 0 6px 12px rgba(0, 61, 102, 0.32);
+  /* inputs*/
+  --inputFocusColor: var(--secondaryColor);
+  --inputBlurColor: var(--grayColor200);
+  --inputFailureColor: var(--redColorLight);
+  --placeHolderColor: var(--grayColor300);
+  /* general colors */
+  --textColor: var(--blueColor500);
+  /* spacing */
+  --spacingXXXXS: 0.25rem;
+  --spacingXXXS: 0.5rem;
+  --spacingXXS: 0.625rem;
+  --spacingXS: 0.75rem;
+  --spacingBase: 1rem;
+  --spacingSM: 1.125rem;
+  --spacingSM2-1: 1.25rem;
+  --spacingSM2: 1.5rem;
+  --spacingSM3: 2rem;
+  --spacingMD: 2.5rem;
+  --spacingLG: 3rem;
+  --spacingXL: 3.75rem;
+  --spacing2XL: 5rem;
+  --spacing3XL: 6.5rem;
+  --spacing4XL: 7.5rem;
+  --spacing5XL: 8.75rem;
+  /* font sizes*/
+  --fontSizeXS: 0.75rem;
+  --fontSizeSM: 0.875rem;
+  --fontSizeBase: 1rem;
+  --fontSizeMD: 1.125rem;
+  --fontSizeMD2: 1.25rem;
+  --fontSizeLG: 2rem;
+  --fontSizeXL: 2.5rem;
+  --fontSizeXLS: 3.75rem;
+  /* border radius*/
+  --borderRadiusXL: 3px;
+  --borderRadiusSM: 6px;
+  --borderRadiusMD: 12px;
+  --borderRadiusLG: 24px;
+  /* border radius*/
+  --transitionBase: 300ms;
+  --transitionMD: 500ms;
+  --transitionLG: 800ms;
+  --transitionXL: 1000ms;
+}

@@ -1,0 +1,11 @@
+<svg id="Info_Infornation" data-name="Info, Infornation" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#789dcc;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px}
+        </style>
+    </defs>
+    <path id="Path_512" data-name="Path 512" d="M0 0h24v24H0z" style="fill:none"/>
+    <path id="Path_513" data-name="Path 513" class="cls-2" d="M12 21h0a9 9 0 0 1-9-9h0a9 9 0 0 1 9-9h0a9 9 0 0 1 9 9h0a9 9 0 0 1-9 9z"/>
+    <path id="Path_514" data-name="Path 514" class="cls-2" d="M12 17v-5h-1"/>
+    <path id="Path_515" data-name="Path 515" class="cls-2" d="M11.749 8a.25.25 0 1 0 .251.25.249.249 0 0 0-.251-.25"/>
+</svg>

@@ -1,0 +1,21 @@
+.requests__sidebar__nav {
+  &__item {
+    margin-bottom: var(--spacingXXXS);
+  }
+  &__item {
+    border-radius: var(--borderRadiusMD);
+    color: var(--blueColor200);
+    &.active {
+      background: var(--blueColor100);
+      color: var(--blueColor400) !important;
+      transition: var(--transitionBase);
+    }
+  }
+  &__link {
+    display: inline-block;
+    padding: var(--spacingXXXS);
+    &__text-exit {
+      color: var(--redColorLighter);
+    }
+  }
+}

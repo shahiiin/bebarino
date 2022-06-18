@@ -1,0 +1,39 @@
+.how-works {
+  width: 100%;
+  padding: var(--spacing4XL) 0;
+  &__texts {
+    text-align: center;
+    width: 30rem;
+    h2 {
+      font-size: var(--fontSizeXL);
+    }
+    p {
+      margin: var(--spacingSM) 0 var(--spacingXL);
+      font-size: var(--fontSizeMD2);
+    }
+  }
+  &__button-group {
+    background: var(--blueColor100);
+    border-radius: var(--borderRadiusMD);
+    button {
+      color: var(--blueColor200);
+      background: transparent;
+      text-align: center;
+      padding: var(--spacingXXXS) var(--spacingLG);
+      border-radius: var(--borderRadiusMD);
+      &.active {
+        color: var(--white);
+        background: var(--secondaryColor);
+      }
+    }
+  }
+  &__read-more-link {
+    color: var(--grayColor400) !important;
+  }
+  &__read-more {
+    color: var(--primaryColor);
+  }
+  &__read-more-box {
+    margin-top: var(--spacing2XL);
+  }
+}

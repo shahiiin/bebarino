@@ -1,0 +1,19 @@
+.baner {
+  &__item {
+    background: var(--white);
+    border-radius: var(--borderRadiusXL);
+    padding: var(--spacingMD);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center !important;
+    p {
+      margin-top: var(--spacingMD);
+      font-size: var(--fontSizeMD2);
+    }
+    &__profit {
+      margin-bottom: 20px;
+      display: inline-block !important;
+    }
+  }
+}

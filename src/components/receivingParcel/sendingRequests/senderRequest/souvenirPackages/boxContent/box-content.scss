@@ -1,0 +1,15 @@
+.souvenir-box {
+  padding: var(--spacingXXXS);
+  // background: var(--grayColor200);
+  border: 1.5px solid var(--grayColor200);
+  border-radius: var(--borderRadiusMD);
+  img {
+    border-radius: var(--borderRadiusMD);
+  }
+  &__heading {
+    font-size: var(--fontSizeSM);
+  }
+  span {
+    display: inline-block !important;
+  }
+}

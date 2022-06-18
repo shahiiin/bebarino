@@ -1,0 +1,34 @@
+.scheduling-hand-off__package-specification {
+  &__delivery {
+    background: var(--white);
+    border-radius: var(--borderRadiusMD);
+    padding: var(--spacingMD);
+    h3 {
+      font-size: var(--fontSizeLG);
+    }
+  }
+  &__time {
+    font-size: var(--fontSizeSM);
+    color: var(--grayColor400);
+  }
+  &__btn-group {
+    & .primary-button,
+    .primary-outline-button {
+      padding: var(--spacingXXXS) var(--spacingSM3) !important;
+      box-shadow: none !important;
+    }
+  }
+  &__meeting-place {
+    font-size: var(--fontSizeMD);
+    color: var(--grayColor400);
+    &__place {
+      color: var(--textColor);
+      display: inline-block;
+    }
+  }
+  &__meeting-time {
+    h5 {
+      color: var(--grayColor400);
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.requests__user {
+  &__img {
+    border-radius: 50%;
+  }
+  &__user-name {
+    font-size: var(--fontSizeSM);
+  }
+  &__user-rate,
+  &__user-message {
+    font-size: var(--fontSizeXS);
+  }
+  &__user-email {
+    font-size: var(--fontSizeXS);
+    color: var(--grayColor300);
+  }
+}

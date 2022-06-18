@@ -1,0 +1,13 @@
+.main-tab {
+  &__button {
+    display: inline-block;
+    background: none;
+    padding: var(--spacingXXXS);
+    font-size: var(--fontSizeMD2);
+    color: var(--blueColor200);
+    &.active {
+      color: var(--blueColor400);
+      border-bottom: 3px solid currentColor;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.travel {
+  padding: var(--spacing4XL) 0;
+  &__content {
+    padding-top: var(--spacing5XL);
+    h2 {
+      font-size: var(--fontSizeXL);
+    }
+    p {
+      font-size: var(--fontSizeMD2);
+      margin: var(--spacingMD) 0;
+      width: 30rem;
+    }
+  }
+  &__question-link {
+    color: var(--grayColor400) !important;
+    span {
+      color: var(--primaryColor) !important;
+    }
+  }
+  &__question-link-box {
+    margin-top: var(--spacingXL);
+  }
+}

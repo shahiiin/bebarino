@@ -1,0 +1,51 @@
+.requests-card {
+  padding: var(--spacingSM2-1) var(--spacingSM3) !important;
+  background: var(--white);
+  border-radius: var(--borderRadiusMD);
+  &:hover {
+    box-shadow: var(--BoxShadowGrayMD);
+    transition: var(--transitionBase);
+  }
+  & .row {
+    flex: 1;
+  }
+  &__avatar {
+    display: inline-block;
+    border-radius: 50%;
+  }
+  h4 {
+    font-size: var(--fontSizeMD);
+  }
+  &__get-box {
+    margin-right: auto !important;
+    background: var(--blueColor100) !important;
+    color: var(--secondaryColor) !important;
+    padding: var(--spacingXXXS) var(--spacingXS);
+    border-radius: var(--borderRadiusSM);
+    font-size: var(--fontSizeSM);
+  }
+  &__value {
+    font-size: var(--fontSizeLG);
+  }
+  &__name {
+    color: var(--blueColor400);
+    font-size: var(--fontSizeXS);
+  }
+  &__tag {
+    background: var(--grayColor50) !important;
+    font-size: var(--fontSizeXS) !important;
+    color: var(--grayColor400) !important;
+    border-radius: var(--borderRadiusSM) !important;
+    padding: var(--spacingXXXXS) var(--spacingXS) !important;
+  }
+  &__day {
+    font-size: var(--fontSizeMD2);
+  }
+  &__until {
+    font-size: var(--fontSizeXS);
+  }
+  &__link.primary-button {
+    font-size: var(--fontSizeSM) !important;
+    padding: var(--spacingXXXS) var(--spacingSM2) !important;
+  }
+}

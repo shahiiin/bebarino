@@ -1,0 +1,15 @@
+.hero {
+  &__content {
+    padding-top: var(--spacing5XL);
+    &__texts {
+      & h1 {
+        font-size: var(--fontSizeXLS);
+      }
+      & p {
+        margin: var(--spacingMD) 0 var(--spacing2XL);
+        font-size: var(--fontSizeMD2);
+        width: 88%;
+      }
+    }
+  }
+}

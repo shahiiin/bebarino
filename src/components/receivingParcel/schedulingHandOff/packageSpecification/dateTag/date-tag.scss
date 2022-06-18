@@ -1,0 +1,19 @@
+.scheduling-hand-off__package-specification__date-tag {
+  display: inline-block;
+  color: var(--grayColor300);
+  border: 1px solid currentColor;
+  padding: var(--spacingXXXS) var(--spacingXS);
+  background: var(--white);
+  border-radius: var(--borderRadiusMD);
+  &.active {
+    color: var(--blueColor400) !important;
+    border: 1px solid currentColor !important;
+    background: rgba(0, 61, 102, 0.1) !important;
+  }
+  & + * {
+    margin-right: var(--spacingXS);
+    @media (max-width: 768px) {
+      margin-top: var(--spacingXXS);
+    }
+  }
+}

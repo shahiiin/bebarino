@@ -1,0 +1,20 @@
+.main-footer {
+  background: var(--grayColor100);
+  padding: var(--spacingLG) 0;
+  p {
+    color: var(--secondaryColor);
+    font-size: var(--fontSizeMD2);
+  }
+  h5 {
+    color: var(--secondaryColor);
+    font-size: var(--fontSizeSM);
+  }
+  ul li {
+    color: var(--blueColor400);
+    font-size: var(--fontSizeBase);
+  }
+  &__copyright {
+    color: var(--blueColor200) !important;
+    font-size: var(--fontSizeSM) !important;
+  }
+}

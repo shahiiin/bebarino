@@ -1,0 +1,36 @@
+.main-header {
+  width: 100%;
+  padding: var(--spacingSM2) 0;
+  & > .container > .row {
+    flex: 1 !important;
+    margin-right: 0;
+    margin-left: 0;
+    align-items: center;
+  }
+  &__navbar {
+    flex: 1;
+    & > ul > .row {
+      flex: 1;
+      margin-right: 0;
+      margin-left: 0;
+      align-items: center;
+      & li {
+        font-weight: 300;
+      }
+    }
+  }
+  &__navbar-item-requests {
+    margin: 0 var(--spacing3XL);
+    font: {
+      weight: 500;
+      size: var(--fontSizeMD2);
+    }
+  }
+  &__navbar-item-login {
+    margin-right: auto;
+    color: var(--primaryColor);
+    & > a span {
+      font-weight: 500;
+    }
+  }
+}

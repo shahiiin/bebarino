@@ -1,0 +1,96 @@
+@import "../../../assets/global/variables";
+@import "../../../assets/global/colors";
+
+.parcel-img-label {
+	width: 12%;
+}
+.parcel-category-label {
+	width: 32%;
+}
+
+.parcel-name-label {
+	width: 52%;
+}
+.parcel-img-input {
+	width: 12%;
+}
+.parcel-category-input {
+	width: 32%;
+}
+
+.parcel-name-input {
+	width: 40%;
+}
+.parcel-delete-btn {
+	width: 10%;
+	min-width: 38px;
+}
+
+.parcel-info {
+	*:not(:first-child) {
+		border-radius: 0.75rem;
+		border: solid 2px var(--grayColor200);
+	}
+	input:first-child {
+		border-radius: 0.75rem;
+		border: dashed 2px var(--grayColor200);
+	}
+	button {
+		border: solid 2px var(--grayColor200);
+		background-color: transparent;
+	}
+}
+
+.add-parcel {
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: translate(50%, 120%);
+	p {
+		color: var(--blueColor400);
+	}
+}
+
+.field-input {
+	height: 3rem;
+	padding: 1.5rem !important;
+	border: 2px solid var(--grayColor300) !important;
+	border-radius: 0.75rem !important;
+	transition: all 150ms ease-in-out;
+	outline: none;
+	&:focus,
+	&:hover {
+		border-radius: 0.75rem !important;
+		border: 2px solid var(--blueColor400) !important;
+	}
+	&::placeholder {
+		color: var(--grayColor300);
+	}
+	&__no-border {
+		border: none;
+	}
+	&__unit {
+		color: var(--grayColor300);
+	}
+}
+
+.upload-input {
+	input[type="file"] {
+		visibility: hidden;
+	}
+	height: 3rem;
+	padding: 1.5rem !important;
+	border-radius: 0.75rem !important;
+	border: 2px dashed var(--grayColor300) !important;
+	background: url(../../../assets/send-request/parcel-information/ClipAttachment.png)
+		center no-repeat;
+	transition: all 150ms ease-in-out;
+	&:focus,
+	&:hover {
+		border-radius: 0.75rem !important;
+		border: 2px dashed var(--blueColor400) !important;
+	}
+	&::placeholder {
+		color: var(--grayColor300);
+	}
+}

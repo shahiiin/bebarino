@@ -1,0 +1,85 @@
+.suggestin-new-time__parcel-specification {
+  span {
+    display: inline-block !important;
+  }
+  &__delivery {
+    background: var(--white) !important;
+    border-radius: var(--borderRadiusMD);
+    padding: var(--spacingMD);
+    &__acception {
+      & > div {
+        width: 100% !important;
+        flex: 1 !important;
+        display: flex !important;
+        justify-content: flex-end !important;
+        align-items: center;
+        @media (max-width: 768px) {
+          justify-content: flex-start !important;
+        }
+      }
+    }
+    h2 {
+      font-size: var(--fontSizeLG);
+    }
+    h5 {
+      font-size: var(--fontSizeMD2);
+      color: var(--grayColor400);
+    }
+    &__place {
+      font-size: var(--fontSizeMD);
+      @media (max-width: 768px) {
+        margin-bottom: var(--spacingSM2);
+      }
+    }
+    &__time {
+      font-size: var(--fontSizeXS);
+      color: var(--grayColor300);
+    }
+    &__accepted {
+      font-size: var(--fontSizeSM);
+      color: var(--greenColor);
+    }
+  }
+  &__meeting-time {
+    background: var(--white);
+    padding: var(--spacingMD);
+    h4 {
+      font-size: var(--fontSizeMD);
+      color: var(--grayColor400);
+    }
+    &__time {
+      color: var(--orangeColor);
+      font-size: var(--fontSizeSM);
+    }
+    &__selecting-time {
+      & .primary-outline-button {
+        padding: var(--spacingXXXS) var(--spacingMD) !important;
+      }
+      &__date {
+        color: var(--blueColor400);
+      }
+      & button {
+        background: transparent !important;
+      }
+    }
+    &__selecting-date {
+      input {
+        display: inline-block !important;
+        width: 100%;
+        border: none;
+        outline: none;
+      }
+      img {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+      }
+      &__input {
+        padding: var(--spacingXS) var(--spacingBase);
+        border: 1px solid var(--grayColor300);
+        border-radius: var(--borderRadiusMD);
+        margin-bottom: var(--spacingBase);
+      }
+    }
+  }
+}

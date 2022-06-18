@@ -1,0 +1,32 @@
+table {
+  border-collapse: collapse;
+  border-radius: var(--borderRadiusMD);
+  overflow: hidden;
+  border: 1px solid var(--grayColor300) !important;
+  thead {
+    border-radius: var(--borderRadiusMD) !important;
+    background-color: var(--grayColor200) !important;
+    tr th {
+      color: var(--grayColor400) !important;
+      font-weight: 400 !important;
+    }
+  }
+  tbody {
+    tr th {
+      color: var(--grayColor400) !important;
+      font-weight: 500 !important;
+    }
+    tr td {
+      font-weight: 800 !important;
+    }
+  }
+}
+.tracker-title {
+  color: var(--blueColor200);
+}
+.marine-blue {
+  color: var(--blueColor400);
+}
+.invoice-title {
+  color: var(--grayColor300);
+}

@@ -1,0 +1,19 @@
+.sender-request__comment {
+  background: var(--white);
+  padding: var(--spacingXXS);
+  border-radius: var(--borderRadiusMD);
+  &__avatar {
+    border-radius: 50%;
+  }
+  h6 {
+    color: var(--blueColor400);
+    font-size: var(--fontSizeSM);
+  }
+  time {
+    font-size: var(--fontSizeXS);
+    color: var(--grayColor400);
+  }
+  p {
+    font-size: var(--fontSizeXS);
+  }
+}
